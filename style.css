@@ -2,6 +2,8 @@
     color: aliceblue;
     background-color: gray;
     font-size: 100px;
+    text-align: center;
+    margin-top: 0px;
 }
 
 .body {
@@ -12,11 +14,13 @@
     color: black;
     background-color: cornsilk;
     font-size: 50px;
+    width: 400px;
 }
 
 .header2 {
     color: aliceblue;
     background-color: hsl(0, 0%, 70%);
+    text-align: center;
 }
 
 .description {
@@ -37,4 +41,17 @@
 
 .steps .item {
     font-weight: lighter;
+}
+
+.image{
+    height: 500px;
+    width: 500px;
+    margin-left: 380px;
+}
+
+.empty-div{
+    background-color: grey;
+    display: block;
+    width: 1264px;
+    height: 900px;
 }
